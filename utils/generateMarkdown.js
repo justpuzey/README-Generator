@@ -43,25 +43,36 @@ const generateMarkdown = answers => {
   * [Usage](#usage)
   * [Contributing](#contributing)
   * [Tests](#tests)
+  * [Questions](#questions)
   * [License](#license)
   
   ## Installation
+  <p><i>Steps required to install application, dependencies and configure the environment:</i></p>
+
   ${answers.installation}
 
   ## Usage
+  <p><i>Instructions for application usage including examples:</i></p>
+
   ${answers.usage}
 
   ## Contributing
+  <p><i>Guidelines for contributing to the project, including contributor covenant:</i></p>
+
   ${answers.contributing}
 
   ## Tests
-  ${answers.tests}
+  <p><i>Below are examples of current application tests and instructions on how to run them:</i></p>
+
+  ${answers.testing}
+
+  ## Questions
+  If you have any questions, please contact:</br>
+  (GitHub User): ${answers.username} </br>
+  email: ${answers.email}
 
   ## License
   ${answers.license}
-
-
-
   
   `;
 }

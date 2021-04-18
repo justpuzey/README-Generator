@@ -29,7 +29,7 @@ const promptQuestions = () => {
     //Prompt for GitHub username
     {
       type: 'input',
-      message: "What is your GitHub username? (Required)",
+      message: "What is the GitHub username for the primary point-of-contact for the repo? (Required)",
       name: 'username',
       validate: function (answer) {
         if (answer) {

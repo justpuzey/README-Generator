@@ -27,7 +27,9 @@
 
 *Instructions and examples for use:*
 
-![Gif demo of README-generator](./assets/images/demo.gif)
+Click to watch walk-through video => [`Demo Video`](https://drive.google.com/file/d/1-mfL-XK1bvRn-4GNU47uHqI3CupaOZJw/view?usp=sharing)
+
+Check out the [`ExampleREADME.md`](./utils/example-README.md)
 
 * Invoke the application with the command: `node index.js`.
 * The application utilizes the `inquirer` package to prompt the user in the command line with questions related to the projeject
@@ -35,7 +37,14 @@
 * The application will then take the responses to the questions to generate a custom markdown page
 * The generated page will be contained in the `dist` folder
 
-Check out the [`ExampleREADME.md`](./utils/example-README.md)
+`For full walk-through video, select link above`
+![Gif demo of README-generator](./assets/images/demo.gif)
+
+`Screen-capture of prompts in node.js`
+![](./assets/images/screencapture-command.png)
+
+`Screen-capture of output README.md`
+![](./assets/images/screencapture-readme.png)
 
 ## Contributors
 

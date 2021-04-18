@@ -3,19 +3,15 @@
 const renderLicenseBadge = license => {
   if (license) {
     // If there is a license, render the link
-    console.log('license received:', license)
     let licenseLink = '';
     if (license == 'The MIT License') {
       licenseLink = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
-      console.log('license is MIT')
     }
     else if (license == 'Apache 2.0 License') {
       licenseLink = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
-      console.log('license is Apache')
     }
     else {
       licenseLink = '[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)'
-      console.log('license is GPL')
     }
     //return License Section
     return licenseLink
@@ -68,7 +64,7 @@ const generateMarkdown = answers => {
 
   ## Questions
   If you have any questions, please contact:</br>
-  (GitHub User): ${answers.username} </br>
+  (GitHub User):[\`${answers.username}\`](github.com/${answers.username})</br>
   email: ${answers.email}
 
   ## License

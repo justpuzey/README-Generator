@@ -37,7 +37,7 @@ Check out the [`ExampleREADME.md`](./utils/example-README.md)
 * The application will then take the responses to the questions to generate a custom markdown page
 * The generated page will be contained in the `dist` folder
 
-`For full walk-through video, select link above`
+`For full walk-through video, select link above`</br>
 ![Gif demo of README-generator](./assets/images/demo.gif)
 
 `Screen-capture of prompts in node.js`

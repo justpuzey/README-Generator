@@ -41,10 +41,10 @@ Check out the [`ExampleREADME.md`](./utils/example-README.md)
 ![Gif demo of README-generator](./assets/images/demo.gif)
 
 `Screen-capture of prompts in node.js`
-![](./assets/images/screencapture-command.png)
+![](./assets/images/screencapture-command.PNG)
 
 `Screen-capture of output README.md`
-![](./assets/images/screencapture-readme.png)
+![](./assets/images/screencapture-readme.PNG)
 
 ## Contributors
 

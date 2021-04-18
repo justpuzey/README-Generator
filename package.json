@@ -1,14 +1,25 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "generator for  professional readme files",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justpuzey/README-Generator.git"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "author": "Justin Puzey",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justpuzey/README-Generator/issues"
+  },
+  "homepage": "https://github.com/justpuzey/README-Generator#readme",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^8.0.0"
   }
 }
